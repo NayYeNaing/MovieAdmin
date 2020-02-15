@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:background="@color/Bg"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Category Name"
+        android:textColor="#ffffFF"
+        android:textSize="20dp"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/edt_cat"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <Button
+            android:textColor="@color/onPrimary"
+            android:id="@+id/savecat"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/secondary"
+            android:text="Save"/>
+
+        <Button
+            android:id="@+id/cancelcatbtn"
+            android:textColor="@color/onPrimary"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:background="#CF6679"
+            android:text="Cancel"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

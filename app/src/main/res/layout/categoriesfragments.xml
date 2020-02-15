@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/Bg"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/cat_search"
+        android:drawableLeft="@drawable/ic_search_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Search Categories"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000000"
+        android:textSize="20dp"
+        android:background="@color/primary"
+        android:textColor="@color/onPrimary"/>
+
+    <ListView
+        android:id="@+id/cat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cat_search"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/catpop"
+        android:backgroundTint="@color/primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_floatingbtn_name"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:progressTint="#FFFFFF"
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="300dp"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="300dp"
+        android:background="@color/Bg"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Add New Series"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/secondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Series Title"
+            android:textColor="@color/secondary"
+            android:layout_marginLeft="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/series_title_et"
+            android:background="@drawable/edittextdesign"
+            android:paddingLeft="10dp"
+            android:layout_width="@dimen/etwidth"
+            android:layout_marginLeft="7dp"
+            android:layout_height="@dimen/edheight"
+            android:hint="Enter Series Title"
+            android:textColorHint="@color/secondary"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/Tvmagrintop"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Series Image Link"
+            android:textColor="@color/secondary"
+            android:layout_marginLeft="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/series_Image_et"
+            android:background="@drawable/edittextdesign"
+            android:paddingLeft="@dimen/etpaddingLeft"
+            android:layout_width="@dimen/etwidth"
+            android:layout_marginLeft="7dp"
+            android:layout_height="@dimen/edheight"
+            android:hint="Enter Series Image Link"
+            android:textColorHint="@color/secondary"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/Tvmagrintop"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Series Category"
+            android:textColor="@color/secondary"
+            android:layout_marginLeft="4dp"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/series_spinner"
+            style="@style/Spinner"
+            android:layout_marginLeft="7dp"
+            android:layout_width="@dimen/etwidth"
+            android:layout_height="@dimen/edheight"/>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/Tvmagrintop"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Series Video"
+            android:textColor="@color/secondary"
+            android:layout_marginLeft="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/series_Video_et"
+            android:background="@drawable/edittextdesign"
+            android:paddingLeft="10dp"
+            android:layout_width="@dimen/etwidth"
+            android:layout_marginLeft="7dp"
+            android:layout_height="@dimen/edheight"
+            android:hint="Enter Series Video"
+            android:textColorHint="@color/secondary"/>
+
+        <LinearLayout
+            android:layout_width="@dimen/etwidth"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_series_save"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/primary"
+                android:text="Save" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="30dp"
+                android:background="#CF6679"
+                android:text="Cancel" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

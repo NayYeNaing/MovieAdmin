@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edheight">50dp</dimen>
+    <dimen name="etwidth">286dp</dimen>
+    <dimen name="Tvmagrintop">10dp</dimen>
+    <dimen name="etpaddingLeft">10dp</dimen>
+</resources>

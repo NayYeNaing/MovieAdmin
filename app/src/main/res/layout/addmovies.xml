@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="300dp"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="300dp"
+    android:background="@color/Bg"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add New Movies"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/secondary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Movie Title"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="4dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_movietitle"
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="@dimen/edheight"
+        android:layout_marginLeft="7dp"
+        android:background="@drawable/edittextdesign"
+        android:hint="Enter Movie Title"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/secondary" />
+
+    <TextView
+        android:layout_marginTop="@dimen/Tvmagrintop"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Movie Image Link"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="4dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_movieimagelink"
+        android:background="@drawable/edittextdesign"
+        android:paddingLeft="@dimen/etpaddingLeft"
+        android:layout_width="@dimen/etwidth"
+        android:layout_marginLeft="7dp"
+        android:layout_height="@dimen/edheight"
+        android:hint="Enter Image Link"
+        android:textColorHint="@color/secondary"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/Tvmagrintop"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Movie Category"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="4dp"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/sp_moviecat"
+        android:layout_marginLeft="7dp"
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="@dimen/edheight"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/Tvmagrintop"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Movie Series"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="4dp"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/sp_movieseries"
+        android:layout_marginLeft="7dp"
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="@dimen/edheight"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/Tvmagrintop"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Movie Video"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="4dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_movievideo"
+        android:background="@drawable/edittextdesign"
+        android:paddingLeft="10dp"
+        android:layout_width="@dimen/etwidth"
+        android:layout_marginLeft="7dp"
+        android:layout_height="@dimen/edheight"
+        android:hint="Enter Movie Video"
+        android:textColorHint="@color/secondary"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/etwidth"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_savemovie"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/primary"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btn_cancelMovie"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="30dp"
+            android:background="#CF6679"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
